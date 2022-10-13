@@ -28,7 +28,7 @@ This new assignment consists of three technical analysis deliverables and a prop
 
 ## Resources and Before Start Notes:
 
-![logo](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/AutoRUs.png?raw=true)
+![logo](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/AutoRUs.png?raw=true)
 
 
 ### Install R
@@ -37,21 +37,21 @@ We must first install R before installing RStudio. This way, RStudio can easily 
 
 To install R on macOS or Windows, navigate to [R's Comprehensive R Archive Network (CRAN) server](https://cran.r-project.org/mirrors.html) and select a mirror link near our region. In most cases, any U.S. mirror link will do (see the following images):
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-1-R_Installation-Page-Mirror_Links.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-1-R_Installation-Page-Mirror_Links.png)
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-2-R_Installation-Page-URLs_US_Servers.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-2-R_Installation-Page-URLs_US_Servers.png)
 
 After you navigate to a CRAN mirror site, you'll reach a self-explanatory download page. Follow the appropriate download link for either your macOS or Windows environment:
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-3-Mirror-Link_Download_Links.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-3-Mirror-Link_Download_Links.png)
 
 For those running a macOS environment, select the latest release .pkg file (the link is midpage):
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-4-mirror-link-provides-download-links.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-4-mirror-link-provides-download-links.png)
 
 For those running a Windows environment, click on the base installer link. On the next page, click the "Download R for Windows" link to start downloading the installer:
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-5-Mirror-Link-R-Version-Windows.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-5-Mirror-Link-R-Version-Windows.png)
 
 Once your installer files are successfully downloaded (.pkg for macOS or .exe for Windows), run them just as you would for any other installation program. Use all default install options and, if prompted, check all boxes to allow all R components to install.
 
@@ -60,7 +60,7 @@ Once your installer files are successfully downloaded (.pkg for macOS or .exe fo
 
 Once you have completed the installation for R, it's time to install RStudio. Now navigate to the [RStudio Download Page](https://rstudio.com/products/rstudio/download/?utm_source=downloadrstudio&utm_medium=Site&utm_campaign=home-hero-cta#download) and select the most appropriate installer link. Refer to the following image:
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-1-R-Studio-Download-Page.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-1-R-Studio-Download-Page.png)
 
 If you're using macOS, drag the RStudio application into your application folder. If you're a Windows user, run it through the installer as you would with any other Windows program.
 
@@ -69,19 +69,19 @@ Once you have R and RStudio installed, run RStudio for the first time, get acqua
 **Navigate and Configure RStudio**
 When you first open up RStudio, you'll notice four panes laid out within the application window. The top-left pane contains your source, or (any RScripts, tables, and files you open within RStudio). By default, RStudio will open an untitled RScript file in the pane for you, so you can start programming right away:
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-2-R-Studio-Source-Pane.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-2-R-Studio-Source-Pane.png)
 
 The bottom-left pane contains the R console. Similar to Python, R can either run an RScript as an executable script or R can run interactively. RStudio combines the best of both worlds where the source RScript (in the top-left pane) can be run all at once, or line by line. By including the R console within the application, we can interact with our environment in real time and test parts of our code before we write them in our scripts:
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-3-R-Console-Pane-Bottom-Left.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-3-R-Console-Pane-Bottom-Left.png)
 
 The top-right pane contains our environment objects, such as variables, functions, and data frames. As we execute commands in the R console, either using our source RScript or manually, any objects generated in the R environment will show up in the top-right pane. This environment pane helps us keep track of the shape, data type, and contents of each variable within our environment without having to print out our variables in the console. As we explore R in this module, the environment pane will prove even more useful for tracking what each line of code does to our data:
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-4-R-Console-Pane-Top-Right.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-4-R-Console-Pane-Top-Right.png)
 
 On the bottom right is the multi-tool pane, which contains tabs for a file explorer, R documentation help, installed package list, and a plot viewing tool. Later, we'll refer to the Plots tab for exploring our generated plots. Additionally, you can use the Files tab to open RScripts from your computer or to copy file paths to include within your RScripts. Finally, to learn more about a function or object from a library in R, simply type ?<name of function or object> in the R console to open the documentation in the Help tab of the multi-tool pane:
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-5-R-Studio-Multi-Tool-Pane.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-5-R-Studio-Multi-Tool-Pane.png)
 
 
 Now that we understand RStudio's layout, we'll install our required libraries to use them in our RScripts for this module. Thankfully, R developers have built robust library collections, such as the [tidyverse](https://www.tidyverse.org/), that simplify the installation process for the most common data analysis packages in R. To install packages in our R environment, use the install.packages() function. 
@@ -108,7 +108,7 @@ The `MechaCar_mpg.csv` dataset contains mpg test results for 50 prototype MechaC
 				
 
 **Statistical Summary:** 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/linear_regression_d1.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/linear_regression_d1.png)
 
 From the above output we can see that:
 
@@ -122,7 +122,7 @@ the **vehicle weight**, **spoiler angle**, and **All Wheel Drive** (AWD) have p-
 
 If we remove the less impactful independent variables (vehicle weight, spoiler angle, and All Wheel Drive), the predictability does decrease, but not drastically: the r-squared value falls from 0.7149 to 0.674. 
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/new_linear_regression_d1.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/new_linear_regression_d1.png)
 
 
 # Deliverable 2:  
@@ -141,12 +141,12 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 
 Your `total_summary` dataframe should look like this:
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-total-summary-data-mean-median-variance-sd.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-total-summary-data-mean-median-variance-sd.png)
 
 4. Write an RScript that creates a `lot_summary` dataframe using the `group_by()` and the `summarize()` functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
 Your lot_summary dataframe should look like this:
 
-![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-manufacturing-lot.png)
+![d1](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-manufacturing-lot.png)
 
 5. Save your `MechaCarChallenge.RScript` file to your GitHub repository.
 
@@ -162,11 +162,11 @@ The Suspension Coil dataset provided for the MechaCar contains the results of te
 
 First looking at all manufacturing lots:
 
-![d2](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/total_lot_summary.png)
+![d2](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/total_lot_summary.png)
 
 Diving a little deeper into each of the 3 lots:
 
-![d2](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/manufactoring_lot_summary.png)
+![d2](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/manufactoring_lot_summary.png)
 
 With the understanding that the design specifications for the MechaCar suspension coils mandate that <mark style="background-color: Yellow">**the variance of the suspension coils cannot exceed 100 pounds per square inch (PSI)**</mark> . 
 
@@ -178,7 +178,7 @@ Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within th
 
 This very simple boxplot illustrates the differences between the lots:
 
-![d2](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/boxplot2.png)
+![d2](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/boxplot2.png)
 
 # Deliverable 3:  
 ## t-Tests on Suspension Coils
@@ -197,7 +197,7 @@ Using your knowledge of R, perform t-tests to determine if all manufacturing lot
 The next step is to conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed **population mean of 1500**, we find the following:
 
 There is a summary of the t-test results across **all manufacturing lots**
-![d3](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/t_test_all.png)
+![d3](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/t_test_all.png)
 
 From here we can see the **true mean of the sample is 1498.78**, which we also saw in the summary statistics above.  With a **p-Value of 0.06**, which is higher than the common significance level of 0.05, there is **NOT enough evidence to support rejecting the null hypothesis**.  That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500. 
 
@@ -207,7 +207,7 @@ From here we can see the **true mean of the sample is 1498.78**, which we also s
 2. Lot 2 has essentially the same outcome with a **sample mean of 1500.02**, a **p-Value of 0.61**; the null hypothesis cannot be rejected, and the sample mean and the population mean of 1500 are statistically similar.
 3. However, Lot 3, not surprisingly is a different scenario. Here **the sample mean is 1496.14** and the **p-Value is 0.04**, which is lower than the common significance level of 0.05.  All indicating to **reject the null hypothesis** that this sample mean and the presumed population mean are not statistically different.
 
- ![d3](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/t_test_lot.png)
+ ![d3](https://github.com/myaakoub93/MechaCar_Statistical_Analysis/blob/main/Resources/Images/t_test_lot.png)
 
 How does this information help?  Clearly, something went awry in Lot 3's production cycle. The process needs to be checked for system fails and the suspension coils from this lot need to be inspected to remove those not meeting quality criteria.
 
